@@ -1,0 +1,51 @@
+
+/* #FFEBE7	#090C08	#86CB92	#AD5D4E */
+
+
+nav {
+    background-color: #FFEBE7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 0 100px 0 0;
+    border: #AD5D4E solid 3px;
+    box-shadow: 3px 2px rgba(0, 0, 0, 0.792);
+}
+
+.button {
+    background-color: black;
+    padding: 16px 50px;
+    /* border: solid white 2px; */
+    border-radius: 30% / 100%; /* turns out we can affect different corners */
+    text-decoration: none;
+    color: #FFEBE7;
+    transition: background-color 0.2s ease-in; /* transitions any changes to background color*/
+}
+.button:visited { color:#FFEBE7 }
+.button:hover { background-color:#AD5D4E; }
+
+.logo {
+    margin-right: auto;
+    padding: 5px 25px;
+
+}
+
+body {
+    background-color:#FFEBE7;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_img {
+    width: 75%;
+    height: 75%;
+    margin: 50px 0px 50px 0px;
+    border: black 4px solid;
+    border-radius: 5%;
+}
+
