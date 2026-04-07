@@ -1,0 +1,23 @@
+/* this is the style sheet for the recipes.
+this is designed to work for all 3 recipes. */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+#div-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#recipe-img {
+    max-width: 100%;
+    height: auto;
+}
+#div-info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
